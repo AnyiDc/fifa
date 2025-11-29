@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* ======== BANNER ======== */
+
 
 .banner {
     background-image: url("./img/fifa.jpeg");
@@ -23,7 +23,7 @@ body {
     overflow: hidden;
 }
 
-/* Degradado suave encima */
+
 .banner::after {
     content: "";
     position: absolute;
@@ -35,13 +35,13 @@ body {
     );
 }
 
-/* título por encima del gradiente */
+
 .banner > * {
     position: relative;
     z-index: 2;
 }
 
-/* ======== CONTENEDOR PRINCIPAL ======== */
+
 
 .container {
     padding: 30px 40px;
@@ -55,7 +55,7 @@ body {
     gap: 30px;
 }
 
-/* ======== CARDS ======== */
+
 
 .card {
     background: white;
@@ -85,7 +85,7 @@ body {
     font-size: 16px;
 }
 
-/* ======== TABLA ======== */
+
 
 table {
     width: 100%;
@@ -118,7 +118,7 @@ td {
     border-bottom: 1px solid #e0e0e0;
 }
 
-/* Icono de bandera */
+
 .flag {
     width: 23px;
     height: 16px;
@@ -128,7 +128,7 @@ td {
     box-shadow: 0 0 3px rgba(0,0,0,0.2);
 }
 
-/* ======== ANIMACIONES ======== */
+
 
 @keyframes fadeIn {
     from {
@@ -141,7 +141,7 @@ td {
     }
 }
 
-/* ======== FOOTER ======== */
+
 
 footer {
     margin-top: 40px;
